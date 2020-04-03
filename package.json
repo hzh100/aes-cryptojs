@@ -1,0 +1,18 @@
+{
+  "name": "aes-cryptojs",
+  "version": "1.0.1",
+  "description": "aes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cryptojs",
+    "aes"
+  ],
+  "author": "hzh100",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  }
+}
