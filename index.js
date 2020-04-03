@@ -60,10 +60,16 @@ function decrypt(context, { secret, iv }, parse = enc.Utf8.parse) {
     padding: pad.Pkcs7
   })
     // ToString
-    .toString(enc.Utf8);
+    .toString(enc.Utf8)
+    .toString();
 
-  // Result
-  return parser.toString();
+    // Result
+    try {
+      // json str
+      return JSON.parse(parser)
+    } catch (e) {
+      return parser
+    }
 }
 
 // Export

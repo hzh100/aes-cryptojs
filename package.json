@@ -1,6 +1,6 @@
 {
   "name": "aes-cryptojs",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "aes",
   "main": "index.js",
   "scripts": {

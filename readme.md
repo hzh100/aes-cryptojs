@@ -16,6 +16,8 @@ import { encrypt } from "aes-cryptojs";
 let data = {
   key: `value`
 };
+// or
+let data = 'jack'
 
 data = encrypt(data, {
   iv: `abcde`,
@@ -34,4 +36,6 @@ data = decrypt(data, {
   iv: `abcde`,
   secret: `123456`
 });
+
+// typeof data === 'object' || 'string'
 ```
